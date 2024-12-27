@@ -1,62 +1,175 @@
+/* NavFrame */
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: #f9f9f9;
-}
+position: absolute;
+width: 393px;
+height: 49px;
+left: 0px;
+top: 0px;
 
-header {
-    text-align: center;
-    padding: 20px;
-    background: #333;
-    color: white;
-}
+background: #0C372C;
 
-h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
 
-main {
-    padding: 20px;
-    max-width: 900px;
-    margin: 0 auto;
-}
+/* Frame 2 */
 
-.project {
-    margin-top: 30px;
-}
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
 
-.project-item {
-    border: 1px solid #ddd;
-    background: white;
-    margin-bottom: 20px;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+position: absolute;
+width: 295px;
+height: 52px;
+left: 69px;
+top: 6px;
 
-.project-item img {
-    width: 100%;
-    border-radius: 8px;
-}
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
-    color: white;
-    margin-top: 20px;
-}
 
-a {
-    color: #3498db;
-    text-decoration: none;
-}
+/* Frame 3 */
 
-a:hover {
-    text-decoration: underline;
-}
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 299px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Navigation Bar */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 37px;
+gap: 20px;
+
+width: 299px;
+height: 32px;
+
+background: #0C372C;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Our Story */
+
+width: 48px;
+height: 11px;
+
+font-family: 'Josefin Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* RSVP */
+
+width: 27px;
+height: 11px;
+
+font-family: 'Josefin Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Registry */
+
+width: 39px;
+height: 11px;
+
+font-family: 'Josefin Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Trip Planner */
+
+width: 61px;
+height: 11px;
+
+font-family: 'Josefin Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 11px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 393px;
+height: 4px;
+left: 0px;
+top: 45px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
